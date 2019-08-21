@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +11,43 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hb_student_tracker: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hb_student_tracker: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -21,86 +59,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="42" selection-end-column="42" />
-              <folding>
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/ReadStudentDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#12#1" expanded="true" />
-                <element signature="e#0#37#1" expanded="true" />
-                <element signature="e#0#60#1" expanded="true" />
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#0#44#1" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+            <state relative-caret-position="443">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
               <folding>
-                <element signature="e#0#29#1" expanded="true" />
+                <element signature="e#0#30#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -129,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/ReadStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java" />
       </list>
     </option>
   </component>
@@ -140,9 +121,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1822" />
-    <option name="width" value="1934" />
-    <option name="height" value="1046" />
+    <option name="x" value="1408" />
+    <option name="y" value="-15" />
+    <option name="width" value="1932" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -153,18 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hibernate" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Hibernate" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,12 +172,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hibernate" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Hibernate" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql.8" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -238,9 +222,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UpdateStudentDemo">
-    <configuration name="CreateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo.CreateStudentDemo" />
+  <component name="RunManager" selected="Application.DeleteStudentDemo">
+    <configuration name="DeleteStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo.DeleteStudentDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -306,11 +290,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteStudentDemo" />
         <item itemvalue="Application.UpdateStudentDemo" />
         <item itemvalue="Application.QueryStudentDemo" />
         <item itemvalue="Application.ReadStudentDemo" />
         <item itemvalue="Application.PrimaryKeyDemo" />
-        <item itemvalue="Application.CreateStudentDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -325,26 +309,28 @@
       <option name="presentableId" value="Default" />
       <updated>1566227738896</updated>
       <workItem from="1566227746206" duration="2457000" />
-      <workItem from="1566308291920" duration="11375000" />
+      <workItem from="1566308291920" duration="12050000" />
+      <workItem from="1566392312596" duration="1923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13832000" />
+    <option name="totallyTimeSpent" value="16430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Persistence" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14658849" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32998884" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
@@ -355,8 +341,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.47268674" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.72478634" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.47268674" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,7 +352,7 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.27292112" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,20 +376,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state>
+          <caret column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="806">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -411,57 +405,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/ReadStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-end-column="42" />
-          <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1170">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="806">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#0#12#1" expanded="true" />
-            <element signature="e#0#37#1" expanded="true" />
-            <element signature="e#0#60#1" expanded="true" />
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#0#44#1" expanded="true" />
+            <element signature="e#0#40#1" expanded="true" />
+            <element signature="e#0#62#1" expanded="true" />
+            <element signature="e#0#46#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="391">
           <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
           <folding>
-            <element signature="e#0#29#1" expanded="true" />
+            <element signature="e#0#42#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#30#1" expanded="true" />
           </folding>
         </state>
       </provider>
