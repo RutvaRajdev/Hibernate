@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -68,8 +68,17 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/GetInstructorDetailDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/CreateInstructorDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/CreateDemoUniDirectional.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
@@ -89,10 +98,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteDemoUniDirectional.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -181,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/Instructor.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/Instructor.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteDemoBiDirectional.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/GetInstructorDetailDemo.java" />
       </list>
     </option>
   </component>
@@ -284,6 +295,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.handson.hibernate.onetoonemapping" />
       <recent name="com.handson.hibernate.Instructor" />
       <recent name="com.handson.hibernate.demo" />
     </key>
@@ -305,9 +317,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteInstructorDemo">
-    <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.CreateInstructorDemo" />
+  <component name="RunManager" selected="Application.GetInstructorDetailDemo">
+    <configuration name="CreateDemoUniDirectional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.CreateDemoUniDirectional" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handson.hibernate.onetoonemapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDemoUniDirectional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.DeleteDemoUniDirectional" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -332,8 +357,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.DeleteInstructorDemo" />
+    <configuration name="GetInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.GetInstructorDetailDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -358,26 +383,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Employee.UpdateEmployee" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.Employee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteInstructorDemo" />
-        <item itemvalue="Application.CreateInstructorDemo" />
+        <item itemvalue="Application.GetInstructorDetailDemo" />
+        <item itemvalue="Application.DeleteDemoUniDirectional" />
+        <item itemvalue="Application.CreateDemoUniDirectional" />
         <item itemvalue="Application.TestJdbc" />
         <item itemvalue="Application.DeleteEmployee" />
-        <item itemvalue="Application.UpdateEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -394,12 +406,12 @@
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
       <workItem from="1566392312596" duration="12120000" />
-      <workItem from="1566477704646" duration="3375000" />
+      <workItem from="1566477704646" duration="3737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30359000" />
+    <option name="totallyTimeSpent" value="30721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -691,17 +703,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/CreateInstructorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/CreateDemoUniDirectional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteDemoUniDirectional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -762,6 +774,13 @@
             <element signature="e#1399#1400#0" expanded="true" />
             <element signature="e#1443#1444#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/GetInstructorDetailDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
         </state>
       </provider>
     </entry>
