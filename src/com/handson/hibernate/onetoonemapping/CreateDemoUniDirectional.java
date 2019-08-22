@@ -6,7 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class DeleteInstructorDemo {
+public class CreateDemoUniDirectional {
 
     public static void main(String[] args) {
 
@@ -21,17 +21,18 @@ public class DeleteInstructorDemo {
 
         try {
 
+//            onetoonemapping instructor = new onetoonemapping("John", "Doe", "john.doe@gmail.com");
+//            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/JohnDoe", "Teaching");
+
+            Instructor instructor = new Instructor("ABC", "DEF", "abc.def@gmail.com");
+            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/abcd", "Music");
+
+            instructor.setInstructorDetail(instructorDetail);
+
             session.beginTransaction();
 
-            int theId = 1 ;
-            Instructor instructor = session.get(Instructor.class, theId);
-
-            System.out.println("Found instructor: "+instructor);
-
-            if(instructor != null) {
-                System.out.println("Deleting: "+instructor);
-                session.delete(instructor);
-            }
+            System.out.println("Saving onetoonemapping: "+instructor);
+            session.save(instructor);
 
             session.getTransaction().commit();
 
