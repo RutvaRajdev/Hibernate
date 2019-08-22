@@ -53,25 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
               <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -79,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="182">
               <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,6 +117,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console_1.sql" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java" />
       </list>
     </option>
   </component>
@@ -193,7 +189,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -205,6 +200,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,17 +329,18 @@
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
       <workItem from="1566392312596" duration="12120000" />
+      <workItem from="1566477704646" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26984000" />
+    <option name="totallyTimeSpent" value="27283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14658849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,16 +401,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,24 +582,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
