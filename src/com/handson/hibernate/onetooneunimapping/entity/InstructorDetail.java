@@ -1,4 +1,4 @@
-package com.handson.hibernate.Instructor.entity;
+package com.handson.hibernate.onetooneunimapping.entity;
 
 import javax.persistence.*;
 

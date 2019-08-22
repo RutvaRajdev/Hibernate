@@ -1,8 +1,7 @@
-package com.handson.hibernate.Instructor;
+package com.handson.hibernate.onetooneunimapping;
 
-import com.handson.hibernate.Instructor.entity.Instructor;
-import com.handson.hibernate.Instructor.entity.InstructorDetail;
-import com.handson.hibernate.Student.entity.Student;
+import com.handson.hibernate.onetooneunimapping.entity.Instructor;
+import com.handson.hibernate.onetooneunimapping.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -22,7 +21,7 @@ public class CreateInstructorDemo {
 
         try {
 
-//            Instructor instructor = new Instructor("John", "Doe", "john.doe@gmail.com");
+//            onetooneunimapping instructor = new onetooneunimapping("John", "Doe", "john.doe@gmail.com");
 //            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/JohnDoe", "Teaching");
 
             Instructor instructor = new Instructor("ABC", "DEF", "abc.def@gmail.com");
@@ -32,7 +31,7 @@ public class CreateInstructorDemo {
 
             session.beginTransaction();
 
-            System.out.println("Saving Instructor: "+instructor);
+            System.out.println("Saving onetooneunimapping: "+instructor);
             session.save(instructor);
 
             session.getTransaction().commit();

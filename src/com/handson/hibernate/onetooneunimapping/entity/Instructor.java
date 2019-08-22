@@ -1,4 +1,4 @@
-package com.handson.hibernate.Instructor.entity;
+package com.handson.hibernate.onetooneunimapping.entity;
 
 import javax.persistence.*;
 
@@ -16,7 +16,7 @@ public class Instructor {
 
     @Override
     public String toString() {
-        return "Instructor{" +
+        return "onetooneunimapping{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
