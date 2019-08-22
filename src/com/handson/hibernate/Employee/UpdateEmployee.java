@@ -1,6 +1,6 @@
-package com.handson.hibernate.demo2;
+package com.handson.hibernate.Employee;
 
-import com.handson.hibernate.demo2.entity.Employee;
+import com.handson.hibernate.Employee.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

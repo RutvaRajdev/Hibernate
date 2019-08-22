@@ -1,11 +1,13 @@
-package com.handson.hibernate.demo2;
+package com.handson.hibernate.Employee;
 
-import com.handson.hibernate.demo2.entity.Employee;
+import com.handson.hibernate.Employee.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class DeleteEmployee {
+import java.util.List;
+
+public class QueryEmployee {
     public static void main(String[] args) {
         SessionFactory sessionFactory = new Configuration()
                 .configure()
@@ -15,19 +17,19 @@ public class DeleteEmployee {
         Session session = sessionFactory.getCurrentSession();
 
         try {
-            System.out.println("Reading Employee with id=1");
+            System.out.println("Querying Armedia employees");
 
             session.beginTransaction();
-            Employee employee = session.get(Employee.class,1);
+            List<Employee> employees = session.createQuery("from Employee where company='Armedia'").list();
 
-            System.out.println("Employee: "+employee);
-
-            System.out.println("Deleting Employee");
-            session.delete(employee);
+            for(Employee employee : employees)
+                System.out.println(employee);
 
             session.getTransaction().commit();
 
             System.out.println("Done!");
+
+
         }
         finally {
             sessionFactory.close();

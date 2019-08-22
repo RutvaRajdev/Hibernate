@@ -1,4 +1,4 @@
-package com.handson.hibernate.demo.entity;
+package com.handson.hibernate.Student.entity;
 
 
 import javax.persistence.*;

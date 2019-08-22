@@ -1,11 +1,11 @@
-package com.handson.hibernate.demo;
+package com.handson.hibernate.Student;
 
-import com.handson.hibernate.demo.entity.Student;
+import com.handson.hibernate.Student.entity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class UpdateStudentDemo {
+public class ReadStudentDemo {
 
     public static void main(String[] args) {
 
@@ -19,27 +19,27 @@ public class UpdateStudentDemo {
 
         try {
 
-           int studentId=1;
+            System.out.println("Creating new student object");
+            Student tempStudent = new Student("Daffy", "Duck", "daffy.duck@gmail.com");
 
-            session = factory.getCurrentSession();
             session.beginTransaction();
 
-            System.out.println("\nGetting student with id:"+studentId);
-
-            Student student = session.get(Student.class, studentId);
-
-            System.out.println("Get complete: "+student);
-
-            student.setFirstName("ketan");
+            System.out.println("Saving student...");
+            System.out.println(tempStudent);
+            session.save(tempStudent);
 
             session.getTransaction().commit();
 
+            System.out.println("Saved student. Generated id: "+tempStudent.getId());
+
             session = factory.getCurrentSession();
             session.beginTransaction();
 
-            System.out.println("Updating email for all students");
+            System.out.println("\nGetting student with id:"+tempStudent.getId());
 
-            session.createQuery("Update Student set email = 'foo@gmail.com'").executeUpdate();
+            Student student = session.get(Student.class, tempStudent.getId());
+
+            System.out.println("Get complete: "+student);
 
             session.getTransaction().commit();
 

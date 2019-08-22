@@ -1,38 +1,40 @@
-package com.handson.hibernate.demo;
+package com.handson.hibernate.Employee;
 
-import com.handson.hibernate.demo.entity.Student;
+import com.handson.hibernate.Employee.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateStudentDemo {
+public class ReadEmployee {
 
     public static void main(String[] args) {
-
         SessionFactory factory = new Configuration()
                 .configure()
-                .addAnnotatedClass(Student.class)
+                .addAnnotatedClass(Employee.class)
                 .buildSessionFactory();
-
 
         Session session = factory.getCurrentSession();
 
         try {
 
-            System.out.println("Creating new student object");
-            Student tempStudent = new Student("Rutva", "Rajdev", "rutva.rajdev@gmail.com");
+            System.out.println("Reading Employee with id 1");
 
             session.beginTransaction();
 
-            System.out.println("Saving student...");
-            session.save(tempStudent);
+            Employee employee = session.get(Employee.class, 1);
+
+            System.out.println("Employee: "+employee);
 
             session.getTransaction().commit();
 
             System.out.println("Done!");
 
-        } finally {
+        }
+        finally {
+
             factory.close();
+
         }
     }
+
 }

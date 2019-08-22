@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="" />
+    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/CreateStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/DeleteStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/PrimaryKeyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/QueryStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/ReadStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/ReadStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/UpdateStudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/InstructorDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo2/CreateEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Employee/CreateEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo2/DeleteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Employee/DeleteEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo2/QueryEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Employee/QueryEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo2/ReadEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Employee/ReadEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo2/UpdateEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Employee/UpdateEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/demo2/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Employee/entity/Employee.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,19 +70,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/InstructorDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="156">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="319">
+              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +165,9 @@
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateStudentDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java" />
       </list>
     </option>
   </component>
@@ -174,16 +224,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="handson" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="handson" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="Instructor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,6 +262,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.handson.hibernate.Instructor" />
       <recent name="com.handson.hibernate.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -242,11 +284,11 @@
   </component>
   <component name="RunManager" selected="Application.TestJdbc">
     <configuration name="CreateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.CreateEmployee" />
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Employee.CreateEmployee" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.Employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +297,11 @@
       </method>
     </configuration>
     <configuration name="DeleteEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.DeleteEmployee" />
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Employee.DeleteEmployee" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.Employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,11 +310,11 @@
       </method>
     </configuration>
     <configuration name="QueryEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.QueryEmployee" />
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Employee.QueryEmployee" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.Employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +336,11 @@
       </method>
     </configuration>
     <configuration name="UpdateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.UpdateEmployee" />
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Employee.UpdateEmployee" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.Employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +371,12 @@
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
       <workItem from="1566392312596" duration="12120000" />
-      <workItem from="1566477704646" duration="299000" />
+      <workItem from="1566477704646" duration="1226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27283000" />
+    <option name="totallyTimeSpent" value="28210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -378,7 +420,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/DeleteStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
@@ -404,7 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/entity/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-851">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
@@ -429,14 +471,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/CreateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
@@ -446,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/PrimaryKeyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -456,14 +498,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/ReadStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/ReadStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/ReadEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/ReadEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
@@ -473,7 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/QueryEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/QueryEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -484,7 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/UpdateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
@@ -494,7 +536,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/UpdateEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/UpdateEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
@@ -504,7 +546,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/QueryStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
@@ -518,7 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/DeleteEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/DeleteEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
@@ -556,7 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/CreateEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/CreateEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
@@ -592,17 +634,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/InstructorDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
         </state>
       </provider>
     </entry>
