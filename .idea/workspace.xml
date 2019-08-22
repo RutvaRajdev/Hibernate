@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -75,6 +73,26 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor_detail">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
               <filtering>
@@ -110,18 +128,6 @@
                 <element signature="e#962#963#0" expanded="true" />
                 <element signature="e#1036#1037#0" expanded="true" />
                 <element signature="e#1092#1093#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java" />
       </list>
     </option>
   </component>
@@ -279,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateInstructorDemo">
+  <component name="RunManager" selected="Application.DeleteInstructorDemo">
     <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Instructor.CreateInstructorDemo" />
       <module name="Hibernate" />
@@ -306,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Employee.QueryEmployee" />
+    <configuration name="DeleteInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Instructor.DeleteInstructorDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.Employee.*" />
+          <option name="PATTERN" value="com.handson.hibernate.Instructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteInstructorDemo" />
         <item itemvalue="Application.CreateInstructorDemo" />
         <item itemvalue="Application.TestJdbc" />
         <item itemvalue="Application.DeleteEmployee" />
         <item itemvalue="Application.UpdateEmployee" />
-        <item itemvalue="Application.QueryEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -368,18 +375,18 @@
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
       <workItem from="1566392312596" duration="12120000" />
-      <workItem from="1566477704646" duration="1534000" />
+      <workItem from="1566477704646" duration="2056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28518000" />
+    <option name="totallyTimeSpent" value="29040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,7 +398,7 @@
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -399,7 +406,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.37012264" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.37012264" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.47268674" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -667,6 +674,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
@@ -685,10 +699,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+        <state relative-caret-position="319">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
