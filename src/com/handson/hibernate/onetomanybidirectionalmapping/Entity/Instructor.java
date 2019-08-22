@@ -1,4 +1,4 @@
-package com.handson.hibernate.onetomanymapping.Entity;
+package com.handson.hibernate.onetomanybidirectionalmapping.Entity;
 
 import javax.persistence.*;
 import java.util.ArrayList;

@@ -1,9 +1,9 @@
-package com.handson.hibernate.onetomanymapping;
+package com.handson.hibernate.onetomanybidirectionalmapping;
 
-import com.handson.hibernate.onetomanymapping.Entity.Course;
+import com.handson.hibernate.onetomanybidirectionalmapping.Entity.Course;
 
-import com.handson.hibernate.onetomanymapping.Entity.Instructor;
-import com.handson.hibernate.onetomanymapping.Entity.InstructorDetail;
+import com.handson.hibernate.onetomanybidirectionalmapping.Entity.Instructor;
+import com.handson.hibernate.onetomanybidirectionalmapping.Entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

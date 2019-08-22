@@ -1,13 +1,15 @@
-package com.handson.hibernate.onetomanymapping;
+package com.handson.hibernate.onetomanybidirectionalmapping;
 
-import com.handson.hibernate.onetomanymapping.Entity.Course;
-import com.handson.hibernate.onetomanymapping.Entity.Instructor;
-import com.handson.hibernate.onetomanymapping.Entity.InstructorDetail;
+import com.handson.hibernate.onetomanybidirectionalmapping.Entity.Course;
+import com.handson.hibernate.onetomanybidirectionalmapping.Entity.Instructor;
+import com.handson.hibernate.onetomanybidirectionalmapping.Entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateCoursesDemo {
+import java.util.List;
+
+public class GetInstructorCoursesDemo {
 
     public static void main(String[] args) {
 
@@ -28,14 +30,10 @@ public class CreateCoursesDemo {
             int id=1;
             Instructor instructor = session.get(Instructor.class, id);
 
-            Course course1 = new Course("Introduction to programming");
-            Course course2 = new Course("Software Development");
+            System.out.println("Instructor: "+instructor);
+            List<Course> courses = instructor.getCourses();
 
-            instructor.add(course1);
-            instructor.add(course2);
-
-            session.save(course1);
-            session.save(course2);
+            System.out.println("Courses: "+courses);
 
             session.getTransaction().commit();
 
