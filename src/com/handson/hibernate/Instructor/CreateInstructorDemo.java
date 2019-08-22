@@ -22,12 +22,18 @@ public class CreateInstructorDemo {
 
         try {
 
-            Instructor instructor = new Instructor("John", "Doe", "john.doe@gmail.com");
-            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/JohnDoe", "Teaching");
+//            Instructor instructor = new Instructor("John", "Doe", "john.doe@gmail.com");
+//            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/JohnDoe", "Teaching");
+
+            Instructor instructor = new Instructor("ABC", "DEF", "abc.def@gmail.com");
+            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/abcd", "Music");
 
             instructor.setInstructorDetail(instructorDetail);
 
             session.beginTransaction();
+
+            System.out.println("Saving Instructor: "+instructor);
+            session.save(instructor);
 
             session.getTransaction().commit();
 
