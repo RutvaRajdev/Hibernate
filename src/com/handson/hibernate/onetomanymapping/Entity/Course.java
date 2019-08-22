@@ -38,7 +38,6 @@ public class Course {
         return "Course{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
-                ", instructor_onetomany=" + instructor +
                 '}';
     }
 
