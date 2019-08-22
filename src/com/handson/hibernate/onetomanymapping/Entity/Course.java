@@ -38,7 +38,7 @@ public class Course {
         return "Course{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
-                ", instructor_onetomany=" + instructor_onetomany +
+                ", instructor_onetomany=" + instructor +
                 '}';
     }
 
@@ -47,12 +47,12 @@ public class Course {
     }
 
 
-    public Instructor getInstructor_onetomany() {
-        return instructor_onetomany;
+    public Instructor getInstructor() {
+        return instructor;
     }
 
-    public void setInstructor_onetomany(Instructor instructor_onetomany) {
-        this.instructor_onetomany = instructor_onetomany;
+    public void setInstructor(Instructor instructor_onetomany) {
+        this.instructor = instructor_onetomany;
     }
 
     @ManyToOne(cascade = {
@@ -62,5 +62,5 @@ public class Course {
             CascadeType.REFRESH
     })
     @JoinColumn(name = "instructor_id")
-    private Instructor instructor_onetomany;
+    private Instructor instructor;
 }

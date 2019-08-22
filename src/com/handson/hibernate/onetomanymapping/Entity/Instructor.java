@@ -88,7 +88,7 @@ public class Instructor {
     @JoinColumn(name = "instructor_detail_id")
     private InstructorDetail instructorDetail;
 
-    @OneToMany(mappedBy = "instructor_onetomany",
+    @OneToMany(mappedBy = "instructor",
             cascade = {
                     CascadeType.DETACH,
                     CascadeType.MERGE,
@@ -111,6 +111,6 @@ public class Instructor {
 
         courses.add(course);
 
-        course.setInstructor_onetomany(this);
+        course.setInstructor(this);
     }
 }

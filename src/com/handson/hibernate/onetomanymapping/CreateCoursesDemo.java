@@ -1,14 +1,13 @@
 package com.handson.hibernate.onetomanymapping;
 
 import com.handson.hibernate.onetomanymapping.Entity.Course;
-
 import com.handson.hibernate.onetomanymapping.Entity.Instructor;
 import com.handson.hibernate.onetomanymapping.Entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateDemo {
+public class CreateCoursesDemo {
 
     public static void main(String[] args) {
 
@@ -24,15 +23,19 @@ public class CreateDemo {
 
         try {
 
-            Instructor instructor = new Instructor("Jane", "Doe", "jane.doe@gmail.com");
-            InstructorDetail instructorDetail = new InstructorDetail("https://www.youtube.com/janedoe", "Gaming");
-
-            instructor.setInstructorDetail(instructorDetail);
-
             session.beginTransaction();
 
-            System.out.println("Saving instructor: "+instructor);
-            session.save(instructor);
+            int id=1;
+            Instructor instructor = session.get(Instructor.class, id);
+
+            Course course1 = new Course("Introduction to programming");
+            Course course2 = new Course("Software Development");
+
+            instructor.add(course1);
+            instructor.add(course2);
+
+            session.save(course1);
+            session.save(course2);
 
             session.getTransaction().commit();
 
