@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDetailDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,21 +37,7 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="hb_student_tracker: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="hb_student_tracker: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="employee: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="hb_student_tracker: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="hb-01-one-to-one-uni: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -61,77 +48,113 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+              <caret line="10" column="88" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#12#1" expanded="true" />
-                <element signature="e#0#40#1" expanded="true" />
-                <element signature="e#0#62#1" expanded="true" />
-                <element signature="e#0#46#1" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/GetInstructorDetailDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/DeleteEmployee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDetailDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="303">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/CreateEmployee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/CreateDemoUniDirectional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/QueryEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#30#1" expanded="true" />
-              </folding>
+        <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor_detail">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/UpdateEmployee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteDemoUniDirectional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="417">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java">
+        <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/Instructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
+            <state relative-caret-position="-78">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="e#0#42#1" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +176,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java" />
-        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java" />
@@ -169,6 +191,20 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo2/QueryEmployee.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo2/UpdateEmployee.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo2/DeleteEmployee.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/InstructorDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateStudentDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteDemoBiDirectional.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/GetInstructorDetailDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDetailDemo.java" />
       </list>
     </option>
   </component>
@@ -180,10 +216,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1408" />
-    <option name="y" value="-15" />
+    <option name="x" value="1464" />
+    <option name="y" value="55" />
     <option name="width" value="1932" />
-    <option name="height" value="1047" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -225,7 +261,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="handson" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="onetoonemapping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
@@ -233,13 +269,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="handson" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="onetoonemapping" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -251,6 +287,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,19 +297,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/handson/hibernate" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="experimental" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.handson.hibernate.onetoonemapping" />
+      <recent name="com.handson.hibernate.Instructor" />
       <recent name="com.handson.hibernate.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Rutva\SpringCourse_Udemy\HandsOn\Hibernate\src\com\handson\hibernate" />
       <recent name="C:\Rutva\SpringCourse_Udemy\HandsOn\Hibernate\src" />
       <recent name="C:\Rutva\SpringCourse_Udemy\HandsOn\Hibernate\lib" />
     </key>
@@ -289,13 +330,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteEmployee">
-    <configuration name="CreateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.CreateEmployee" />
+  <component name="RunManager" selected="Application.DeleteInstructorDetailDemo">
+    <configuration name="CreateDemoUniDirectional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.CreateDemoUniDirectional" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetoonemapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,12 +344,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.DeleteEmployee" />
+    <configuration name="DeleteDemoUniDirectional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.DeleteDemoUniDirectional" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetoonemapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,12 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.QueryEmployee" />
+    <configuration name="DeleteInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.DeleteInstructorDetailDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetoonemapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.ReadEmployee" />
+    <configuration name="GetInstructorDetailDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.GetInstructorDetailDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetoonemapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,12 +383,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.demo2.UpdateEmployee" />
+    <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.jdbc.TestJdbc" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.demo2.*" />
+          <option name="PATTERN" value="com.handson.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,11 +398,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteEmployee" />
-        <item itemvalue="Application.UpdateEmployee" />
-        <item itemvalue="Application.QueryEmployee" />
-        <item itemvalue="Application.CreateEmployee" />
-        <item itemvalue="Application.ReadEmployee" />
+        <item itemvalue="Application.DeleteInstructorDetailDemo" />
+        <item itemvalue="Application.CreateDemoUniDirectional" />
+        <item itemvalue="Application.GetInstructorDetailDemo" />
+        <item itemvalue="Application.DeleteDemoUniDirectional" />
+        <item itemvalue="Application.TestJdbc" />
       </list>
     </recent_temporary>
   </component>
@@ -377,18 +418,19 @@
       <updated>1566227738896</updated>
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
-      <workItem from="1566392312596" duration="7416000" />
+      <workItem from="1566392312596" duration="12120000" />
+      <workItem from="1566477704646" duration="4870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21923000" />
+    <option name="totallyTimeSpent" value="31854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14658849" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,15 +441,15 @@
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.37012264" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.47268674" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -421,12 +463,46 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.27292112" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
+      <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.32998884" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.37012264" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.47268674" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.27292112" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/DeleteStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
@@ -452,24 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/entity/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-851">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
@@ -494,14 +553,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/entity/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="42" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/CreateStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/CreateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
@@ -511,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/PrimaryKeyDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/PrimaryKeyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -521,14 +580,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/ReadStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/ReadStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/ReadEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/ReadEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
@@ -538,17 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/CreateEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/QueryEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/QueryEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
@@ -559,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/UpdateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="41" column="94" selection-start-line="41" selection-start-column="94" selection-end-line="41" selection-end-column="94" />
@@ -569,10 +618,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/UpdateEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/UpdateEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/QueryStudentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#12#1" expanded="true" />
+            <element signature="e#0#40#1" expanded="true" />
+            <element signature="e#0#62#1" expanded="true" />
+            <element signature="e#0#46#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/DeleteEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3.SCHEMA:hb-01-one-to-one-uni">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3.SCHEMA:hb-01-one-to-one-uni</OriginalElement>
+          <nodes>
+            <node x="" y="">39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3.TABLE:hb-01-one-to-one-uni.instructor</node>
+            <node x="" y="">39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3.TABLE:hb-01-one-to-one-uni.instructor_detail</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="351.0" y="124.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/CreateEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -588,27 +699,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/jdbc/TestJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#12#1" expanded="true" />
-            <element signature="e#0#40#1" expanded="true" />
-            <element signature="e#0#62#1" expanded="true" />
-            <element signature="e#0#46#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/demo2/DeleteEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteDemoUniDirectional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="417">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/GetInstructorDetailDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/CreateDemoUniDirectional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor_detail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6b1785b2-a076-4ab6-9782-b2eaf6c513ae">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/entity/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="72" column="32" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding>
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetoonemapping/DeleteInstructorDetailDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
