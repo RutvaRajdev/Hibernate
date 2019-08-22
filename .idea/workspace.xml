@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/Entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/Entity/Course.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,15 +59,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/Entity/Course.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -91,6 +79,15 @@
                 <element signature="e#1060#1061#0" expanded="true" />
                 <element signature="e#1114#1115#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/DeleteCourseDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -242,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/Entity/Instructor.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/GetInstructorCoursesDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/Entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/DeleteCourseDemo.java" />
       </list>
     </option>
   </component>
@@ -308,16 +306,6 @@
               <item name="handson" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="onetomanymapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="handson" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="onetomanymapping" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateDemoUniDirectional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetoonemapping.CreateDemoUniDirectional" />
+    <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanymapping.CreateInstructorDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.onetoonemapping.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetomanymapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,8 +394,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanymapping.CreateInstructorDemo" />
+    <configuration name="DeleteCourseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanymapping.DeleteCourseDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
@@ -448,10 +436,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GetInstructorCoursesDemo" />
+        <item itemvalue="Application.DeleteCourseDemo" />
         <item itemvalue="Application.CreateCoursesDemo" />
         <item itemvalue="Application.CreateInstructorDemo" />
         <item itemvalue="Application.DeleteInstructorDetailDemo" />
-        <item itemvalue="Application.CreateDemoUniDirectional" />
       </list>
     </recent_temporary>
   </component>
@@ -468,18 +456,18 @@
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
       <workItem from="1566392312596" duration="12120000" />
-      <workItem from="1566477704646" duration="11689000" />
+      <workItem from="1566477704646" duration="11913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38673000" />
+    <option name="totallyTimeSpent" value="38897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,7 +479,7 @@
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49946696" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -499,7 +487,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.37012264" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.37012264" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -960,6 +948,13 @@
             <element signature="e#1060#1061#0" expanded="true" />
             <element signature="e#1114#1115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanymapping/DeleteCourseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
