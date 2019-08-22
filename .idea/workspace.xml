@@ -54,7 +54,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/InstructorDetail.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/InstructorDetail.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -63,10 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/CreateInstructorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+              <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -83,7 +83,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/DeleteInstructorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
               <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
@@ -103,9 +103,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/Instructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1403">
+            <state relative-caret-position="156">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
@@ -172,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/Instructor.java" />
       </list>
     </option>
   </component>
@@ -221,14 +222,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="handson" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="handson" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="Instructor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,11 +281,11 @@
   </component>
   <component name="RunManager" selected="Application.DeleteInstructorDemo">
     <configuration name="CreateInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Instructor.CreateInstructorDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetooneunimapping.CreateInstructorDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.Instructor.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetooneunimapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,11 +307,11 @@
       </method>
     </configuration>
     <configuration name="DeleteInstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.Instructor.DeleteInstructorDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetooneunimapping.DeleteInstructorDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.Instructor.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetooneunimapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,18 +368,17 @@
       <workItem from="1566227746206" duration="2457000" />
       <workItem from="1566308291920" duration="12050000" />
       <workItem from="1566392312596" duration="12120000" />
-      <workItem from="1566477704646" duration="2844000" />
+      <workItem from="1566477704646" duration="3116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29828000" />
+    <option name="totallyTimeSpent" value="30100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" weight="0.14818764" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,7 +389,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32998884" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
@@ -406,7 +398,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.37012264" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.37012264" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.47268674" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -672,21 +664,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/InstructorDetail.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/InstructorDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/CreateInstructorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/CreateInstructorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+          <caret line="27" column="107" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/DeleteInstructorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/DeleteInstructorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
@@ -711,9 +703,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Instructor/entity/Instructor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetooneunimapping/entity/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
+        <state relative-caret-position="156">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />

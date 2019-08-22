@@ -1,7 +1,7 @@
-package com.handson.hibernate.onetooneunimapping;
+package com.handson.hibernate.onetoonemapping;
 
-import com.handson.hibernate.onetooneunimapping.entity.Instructor;
-import com.handson.hibernate.onetooneunimapping.entity.InstructorDetail;
+import com.handson.hibernate.onetoonemapping.entity.Instructor;
+import com.handson.hibernate.onetoonemapping.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
