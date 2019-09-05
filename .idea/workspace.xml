@@ -88,14 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/CreateCourseAndReviewsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="50">
               <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/GetCourseAndReviewsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -184,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/entity/Course.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/CreateCoursesDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/CreateCourseAndReviewsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/GetCourseAndReviewsDemo.java" />
       </list>
     </option>
   </component>
@@ -324,26 +334,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateCourseAndReviewsDemo">
+  <component name="RunManager" selected="Application.GetCourseAndReviewsDemo">
     <configuration name="CreateCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.CreateCourseAndReviewsDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.handson.hibernate.onetomanyunidirectionalmapping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteCourseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanymapping.DeleteCourseDemo" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.onetomanymapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,6 +374,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.GetCourseAndReviewsDemo" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handson.hibernate.onetomanyunidirectionalmapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetInstructorCoursesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanymapping.GetInstructorCoursesDemo" />
       <module name="Hibernate" />
@@ -392,11 +402,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetCourseAndReviewsDemo" />
         <item itemvalue="Application.CreateCourseAndReviewsDemo" />
         <item itemvalue="Application.FetchjoinDemo" />
         <item itemvalue="Application.EagerLazyDemo" />
         <item itemvalue="Application.GetInstructorCoursesDemo" />
-        <item itemvalue="Application.DeleteCourseDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -420,18 +430,18 @@
       <workItem from="1567086033056" duration="598000" />
       <workItem from="1567108044934" duration="598000" />
       <workItem from="1567622797690" duration="596000" />
-      <workItem from="1567689755595" duration="977000" />
+      <workItem from="1567689755595" duration="1797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58240000" />
+    <option name="totallyTimeSpent" value="59060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -443,7 +453,7 @@
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49946696" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -451,7 +461,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.23522854" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.23522854" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -462,41 +472,13 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.38787878" />
+      <window_info anchor="right" id="Database" order="8" weight="0.38752666" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/ReadStudentDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/ReadEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Employee/QueryEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#30#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/Student/UpdateStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
@@ -876,13 +858,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-04-one-to-many-uni/table/review">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-04-one-to-many-uni/table/course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/CreateCourseAndReviewsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="50">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/GetCourseAndReviewsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
         </state>
       </provider>
     </entry>
