@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -87,6 +84,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/AddCoursesForJohnDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -111,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console.sql" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo2/entity/Employee.java" />
@@ -162,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndReviewsDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/AddCoursesForJohnDemo.java" />
       </list>
     </option>
   </component>
@@ -295,8 +301,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.handson.hibernate.manytomanymapping.entity" />
       <recent name="com.handson.hibernate.manytomanymapping" />
+      <recent name="com.handson.hibernate.manytomanymapping.entity" />
       <recent name="com.handson.hibernate.onetomanyunidirectionalmapping" />
       <recent name="com.handson.hibernate.eagervslazyloading" />
       <recent name="com.handson.hibernate.onetomanymapping" />
@@ -321,7 +327,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateCourseAndStudentsDemo">
+  <component name="RunManager" selected="Application.AddCoursesForJohnDemo">
+    <configuration name="AddCoursesForJohnDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.manytomanymapping.AddCoursesForJohnDemo" />
+      <module name="Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.handson.hibernate.manytomanymapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.CreateCourseAndReviewsDemo" />
       <module name="Hibernate" />
@@ -361,19 +380,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FetchjoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.eagervslazyloading.FetchjoinDemo" />
-      <module name="Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.eagervslazyloading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GetCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.GetCourseAndReviewsDemo" />
       <module name="Hibernate" />
@@ -389,11 +395,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddCoursesForJohnDemo" />
         <item itemvalue="Application.CreateCourseAndStudentsDemo" />
         <item itemvalue="Application.DeleteCourseAndReviewsDemo" />
         <item itemvalue="Application.GetCourseAndReviewsDemo" />
         <item itemvalue="Application.CreateCourseAndReviewsDemo" />
-        <item itemvalue="Application.FetchjoinDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -422,13 +428,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62686000" />
+    <option name="totallyTimeSpent" value="63890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,7 +446,7 @@
       <window_info anchor="bottom" id="Database Console" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49946696" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -448,7 +454,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.23522854" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.23522854" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -459,14 +465,13 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.38752666" />
+      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.38752666" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-01-one-to-one-uni/table/instructor" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -739,24 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-05-many-to-many/table/course_student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-05-many-to-many/table/course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://DATABASE/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3.SCHEMA:hb-05-many-to-many">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -778,15 +765,6 @@
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-05-many-to-many/table/student">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
-          <filtering>
-            <filter text="" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -859,6 +837,40 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-05-many-to-many/table/course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-05-many-to-many/table/student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/schema/hb-05-many-to-many/table/course_student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d93afecb-76ce-4cf8-994c-02af86f18b23">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/AddCoursesForJohnDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
         </state>
       </provider>
     </entry>
