@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff9aae56-33d1-4302-8434-6d3dd8b1737b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndReviewsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -73,6 +74,18 @@
                 <element signature="e#1595#1596#0" expanded="true" />
                 <element signature="e#1647#1648#0" expanded="true" />
                 <element signature="e#1685#1686#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/QueryStudentDemo.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/UpdateStudentDemo.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console.sql" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/demo/DeleteStudentDemo.java" />
@@ -145,10 +157,11 @@
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/onetomanyunidirectionalmapping/DeleteCourseAndReviewsDemo.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/39a7e3a9-82a0-47ce-ad8e-6cd2bb19abe3/console_4.sql" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/InstructorDetail.java" />
-        <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndReviewsDemo.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/Course.java" />
         <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndReviewsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java" />
       </list>
     </option>
   </component>
@@ -308,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteCourseAndReviewsDemo">
+  <component name="RunManager" selected="Application.CreateCourseAndStudentsDemo">
     <configuration name="CreateCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.CreateCourseAndReviewsDemo" />
       <module name="Hibernate" />
@@ -322,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.DeleteCourseAndReviewsDemo" />
+    <configuration name="CreateCourseAndStudentsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.manytomanymapping.CreateCourseAndStudentsDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.onetomanyunidirectionalmapping.*" />
+          <option name="PATTERN" value="com.handson.hibernate.manytomanymapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,12 +348,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EagerLazyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.eagervslazyloading.EagerLazyDemo" />
+    <configuration name="DeleteCourseAndReviewsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.handson.hibernate.onetomanyunidirectionalmapping.DeleteCourseAndReviewsDemo" />
       <module name="Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.handson.hibernate.eagervslazyloading.*" />
+          <option name="PATTERN" value="com.handson.hibernate.onetomanyunidirectionalmapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateCourseAndStudentsDemo" />
         <item itemvalue="Application.DeleteCourseAndReviewsDemo" />
         <item itemvalue="Application.GetCourseAndReviewsDemo" />
         <item itemvalue="Application.CreateCourseAndReviewsDemo" />
         <item itemvalue="Application.FetchjoinDemo" />
-        <item itemvalue="Application.EagerLazyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -409,13 +422,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61981000" />
+    <option name="totallyTimeSpent" value="62686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944258" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" sideWeight="0.5005574" side_tool="true" weight="0.25266525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,7 +448,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.23522854" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.23522854" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50053304" side_tool="true" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -783,9 +796,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/entity/InstructorDetail.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndReviewsDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -838,6 +848,16 @@
             <element signature="e#1595#1596#0" expanded="true" />
             <element signature="e#1647#1648#0" expanded="true" />
             <element signature="e#1685#1686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/handson/hibernate/manytomanymapping/CreateCourseAndStudentsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

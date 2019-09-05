@@ -1,15 +1,13 @@
 package com.handson.hibernate.manytomanymapping;
 
 
-import com.handson.hibernate.onetomanyunidirectionalmapping.entity.Course;
-import com.handson.hibernate.onetomanyunidirectionalmapping.entity.Instructor;
-import com.handson.hibernate.onetomanyunidirectionalmapping.entity.InstructorDetail;
-import com.handson.hibernate.onetomanyunidirectionalmapping.entity.Review;
+import com.handson.hibernate.manytomanymapping.entity.*;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-public class CreateCourseAndReviewsDemo {
+public class CreateCourseAndStudentsDemo {
 
     public static void main(String[] args) {
 
@@ -19,6 +17,7 @@ public class CreateCourseAndReviewsDemo {
                 .addAnnotatedClass(InstructorDetail.class)
                 .addAnnotatedClass(Course.class)
                 .addAnnotatedClass(Review.class)
+                .addAnnotatedClass(Student.class)
                 .buildSessionFactory();
 
 
@@ -30,14 +29,20 @@ public class CreateCourseAndReviewsDemo {
 
             Course course = new Course("Pacman");
 
-            course.addReview(new Review("Great Course!"));
-            course.addReview(new Review("Awesome"));
-            course.addReview(new Review("Learnt great new skills!!"));
-
-            System.out.println("Saving Course");
-            System.out.println(course);
-            System.out.println(course.getReviews());
+            System.out.println("Saving the course");
             session.save(course);
+            System.out.println(course);
+
+            Student student = new Student("John", "Doe", "john.doe@gmail.com");
+            Student student1 = new Student("Jane", "Brooks", "jane.brooks@gmail.com");
+
+            course.addStudent(student);
+            course.addStudent(student1);
+
+            System.out.println("Saving Students");
+            session.save(student);
+            session.save(student1);
+            System.out.println("Saved Students: "+course.getStudents());
 
             session.getTransaction().commit();
 
