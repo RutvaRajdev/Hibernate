@@ -8,7 +8,7 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <user-name>hbstudent</user-name>
-      <introspection-schemas>*:@,hb-03-one-to-many</introspection-schemas>
+      <introspection-schemas>*:@,hb-03-one-to-many,hb-04-one-to-many-uni</introspection-schemas>
     </data-source>
   </component>
 </project>
