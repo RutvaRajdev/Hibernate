@@ -1,5 +1,7 @@
 package com.handson.hibernate.manytomanymapping.entity;
 
+import com.handson.hibernate.Student.entity.Student;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +17,8 @@ public class Course {
 
     @Column(name = "title")
     private String title;
+
+    private List<Student> students;
 
     public Course() {
     }
@@ -82,5 +86,21 @@ public class Course {
             reviews = new ArrayList<>();
 
         reviews.add(review);
+    }
+
+    public List<Student> getStudents() {
+        return students;
+    }
+
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
+    public void addStudent(Student student) {
+        if(students == null) {
+            students = new ArrayList<>();
+        }
+
+        students.add(student);
     }
 }
